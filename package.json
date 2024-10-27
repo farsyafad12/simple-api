@@ -1,0 +1,28 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "Node.js",
+    "Testing"
+  ],
+  "author": "Ahnaf",
+  "license": "MIT",
+  "description": "A simple API built with Express.js",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
